@@ -164,8 +164,17 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: orange;/*#824027;*/
   text-decoration: underline;
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+	100% {
+		background-color: cyan;
+	}
 }
 
 a:not([href]):not([class]) {
