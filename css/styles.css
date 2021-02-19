@@ -166,15 +166,6 @@ a {
 a:hover {
   color: orange;/*#824027;*/
   text-decoration: underline;
-  animation-name: background-color;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-}
-
-@keyframes background-color {
-	100% {
-		background-color: cyan;
-	}
 }
 
 a:not([href]):not([class]) {
@@ -10054,6 +10045,7 @@ p.lead {
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
